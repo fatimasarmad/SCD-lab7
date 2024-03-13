@@ -22,7 +22,7 @@ jobs:
     steps:
     - run: node --version
     - run: npm --version
-    - run: npm --npm install
+    - run: npm install
     - run: node app.js
     - uses: actions/checkout@v3
 
